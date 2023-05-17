@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "funcoin"
+version = "0.1.0"
+description = ""
+authors = ["Henry Tirla <henrytirla@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+structlog = "^23.1.0"
+colorama = "^0.4.6"
+marshmallow = "^3.19.0"
+marshmallow-oneofschema = "^3.0.1"
+aiohttp = "^3.8.4"
+pynacl = "^1.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
